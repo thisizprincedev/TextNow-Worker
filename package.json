@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "kyte-app",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Kanaiya Katarmal <katarmal.kanaiya@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "emailjs": "^3.7.0",
+    "md5": "^2.3.0",
+    "nodemailer": "^6.7.2"
+  }
+}
